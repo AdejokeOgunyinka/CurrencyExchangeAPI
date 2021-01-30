@@ -16,6 +16,7 @@ and returns a formatted version of the response:
     }
 ```
 
-To test the API, send a GET request to : '/api/rates'. The API also takes params (base and currency) e.g
-    ```http://localhost:3000/api/rates?base=CZK&currency=EUR,SEK,IDR```
+To test the API, send a GET request to : 'https://adejoke-currency-converter.herokuapp.com/api/rates'. 
+The API also takes params (base and currency) e.g
+    ```https://adejoke-currency-converter.herokuapp.com/api/rates?base=CZK&currency=EUR,SEK,IDR```
     The request must either be sent without params or with both params. DO NOT try to send a request with only one param.
